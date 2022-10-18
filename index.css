@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
 body{
-    background-color: black;
+    background-color: #8BB3C2;
+    font-family: 'Inter', 'sans-serif';
 }
+
+.main-section-wrapper-list{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.table-div{
+    background-color: black;
+    margin: 10px;
+    padding: 0 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    transition: transform 250ms;
+    cursor: pointer;
+}
+
+
+.table-div:hover{
+transform: translateY(-5px);
+}
+
+header{
+    background-color: #F26B73;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+h1{
+    font-weight: 500;
+    padding: 5px;
+}
+h2{
+    padding: 5px;
+    font-weight: 400;
+}
+
+button{
+    z-index: 100;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    height: 50px;
+    background-color: rgb(60, 118, 118);
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+   background-color: rgb(9, 151, 187);
+   color: white;
+}
+  
+
+.main-section-wrapper-grid{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.grid-div{
+    background-color: black;
+    margin: 10px;
+    padding: 0 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 250ms;
+    cursor: pointer;
+    text-align: center;
+    justify-self: center;
+}
+
+.grid-div:hover{
+    transform: translateY(-5px);
+    }
